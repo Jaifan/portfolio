@@ -1,0 +1,83 @@
+.container{
+ padding: 20px 10px 20px 10px ;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.headitem{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headitem p {
+    color: rgb(251, 255, 255);
+    font-size: xx-large;
+
+}
+.headitem button {
+    padding: 10px 12px 10px 12px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    color: antiquewhite;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    font-weight: bold  ;
+}
+
+.headbody {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgsocial img {
+    width: 250;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.headimg{
+    margin-bottom: 8px;
+}
+
+.headsocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+
+.headbois{
+    width: 45%;
+    padding: 10px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.name{
+    margin: 7px;
+    margin-top: 13px;
+    color: rgb(203, 245, 245);
+}
+
+.Icon {
+    text-decoration: none;
+    padding: 5px 5px 0 5px;
+    border-radius: 10px;
+}
+
+.Icon:hover {
+    background-color: rgb(254, 255, 255);
+}
+
+.Icon a{
+    text-decoration: none;
+}
+
+

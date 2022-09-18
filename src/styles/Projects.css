@@ -1,0 +1,70 @@
+.containers{
+    padding: 20px 10px 20px 10px ;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: rgb(251, 255, 255);
+}
+.projectsCard {
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*background-color: rgb(89, 87, 83);*/
+    border-radius: 10px;
+}
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(77, 69, 59);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.projectName {
+    color: rgba(169, 241, 239, 0.988);
+    margin-bottom: 5px;
+    font-size: larger;
+}
+.projectDesc {
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    color: rgb(206, 216, 219);
+}
+.projectLinks {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.projectLink {
+    background-color: rgb(25, 25, 25);
+    padding: 3px 10px 3px 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.projectLink:hover {
+    background-color: white;
+}
+
+.projectLink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.projectLink a:hover{
+    color: black;
+}

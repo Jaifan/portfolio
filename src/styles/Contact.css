@@ -1,0 +1,62 @@
+.contactContainer{
+    padding: 20px 10px 20px 10px ;
+}
+.contacttitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: rgb(251, 255, 255);
+}
+
+.contactcard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    justify-content: center;
+    align-content: center;   
+    background-color: rgb(177, 211, 206);
+
+    border-radius: 10px 10px 0 0;
+}
+.contactcard4{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    justify-content: center;
+    align-content: center;   
+    background-color: rgb(181, 255, 240);
+}
+.contactcard3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    justify-content: center;
+    align-content: center;   
+    background-color: rgb(181, 255, 240);
+    border-radius: 0 0 10px 10px;
+}
+.contacttf{
+    border-radius: 10px;
+    border: none;
+}
+.contactbutton{
+    height: 60px;
+    width: 135px;
+    font-size: medium;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    border-color: aqua;
+    background-color: aqua;
+    color: black;
+}
+.contactcard2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    justify-content: center;
+    align-content: center;   
+    background-color: rgb(63, 68, 67);
+}

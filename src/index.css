@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: linear-gradient(hwb(0 9% 91%) , #224a6a);
+    width: 100%;
+    height: auto;
+
+}
+
